@@ -1,0 +1,19 @@
+
+// This is a comment
+
+Duck duck0(Adam)
+Duck duck1(Peter)
+
+duck0.name
+duck1.name
+
+duck0.fly
+duck1.quack
+duck1.right
+
+for 5 duck1.swim
+
+duck1.leftW
+duck0.fly
+duck1.left
+duck0.quack
