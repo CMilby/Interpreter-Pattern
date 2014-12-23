@@ -3,11 +3,13 @@ Interpreter Pattern
 Implementation of the [Interpreter Pattern](http://en.wikipedia.org/wiki/Interpreter_pattern) outlined by the "Gang of Four"
 Evaluation of Grammar
 ----
-> expression ::= <command> | <sequence> | <repetition>  
-> sequence ::= <expression> '\n' <expression>  
-> command ::= <fly> | <swim> | <quack> | <left> | <right>  
-> repetition ::= for <variable> <variable>.<command>  
-> variable ::= [A-Z,a-z]+  
+'''
+expression ::= <command> | <sequence> | <repetition>  
+sequence ::= <expression> '\n' <expression>  
+command ::= <fly> | <swim> | <quack> | <left> | <right>  
+repetition ::= for <variable> <variable>.<command>  
+variable ::= [A-Z,a-z]+  
+'''
 
 Use
 ----
