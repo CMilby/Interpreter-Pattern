@@ -8,7 +8,7 @@ expression ::= <command> | <sequence> | <repetition>
 sequence ::= <expression> '\n' <expression>  
 command ::= <fly> | <swim> | <quack> | <left> | <right>  
 repetition ::= for <variable> <variable>.<command>  
-variable ::= [A-Z,a-z]+  
+variable ::= [a-zA-Z0-9$_]*  
 ```
 
 Use
